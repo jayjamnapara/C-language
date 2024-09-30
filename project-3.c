@@ -1,16 +1,16 @@
 // quetions-1
-// #include <stdio.h>
-// #include <conio.h>
+#include <stdio.h>
+#include <conio.h>
 
-// void main(){
+void main(){
 
-//     char alpha = 'a';
-//     do{
-//         printf("%c\n",alpha);
-//         alpha+=4;    
-//     }
-//     while(alpha <= 'z');
-// }
+    char alpha = 'a';
+    do{
+        printf("%c\n",alpha);
+        alpha+=4;    
+    }
+    while(alpha <= 'z');
+}
 
 // question-2
 // #include <stdio.h>
