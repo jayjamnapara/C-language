@@ -4,12 +4,12 @@
 void main(){
 
     // que-1 
-    for(int i=41; i<=45; i++){
-        for(int j=41; j<=i; j++){
-            printf("%d",j);
-        }
-        printf("\n");
-    }
+    // for(int i=41; i<=45; i++){
+    //     for(int j=41; j<=i; j++){
+    //         printf("%d",j);
+    //     }
+    //     printf("\n");
+    // }
 
     // que-2
     // int num = 11;
@@ -45,7 +45,19 @@ void main(){
     // }
 
     // que-5
-
+    // int n=5;
+    // for(int i=1; i<= n; i++){
+    //     for(int j=n-i; j>0; j--){
+    //         printf(" ");
+    //     }
+    //     for(int k = i; k>=1; k--){
+    //         printf("%d",k);
+    //     }
+    //     for(int l=2; l<=i; l++){
+    //         printf("%d",l);
+    //     }
+    //     printf("\n");
+    // }
 
     // que-6
     // for(int i=6-1; i>=1; i--){
@@ -61,4 +73,18 @@ void main(){
     //     printf("\n");
     // }
 
+    // que-7
+    // int n = 5;
+    // for(int i=1; i<=n; i++){
+    //     for(int j=n-i; j>0; j--){
+    //         printf(" ");
+    //     }
+    //     for(int k=i; k>=1; k--){
+    //         printf("*");
+    //     }
+    //     for(int l=2; l<=i; l++){
+    //         printf("*");
+    //     }
+    //     printf("\n");
+    // }
 }
