@@ -100,9 +100,9 @@ void main()
     // que-4
     int arr[5][5];
     int i,j,sum=0;
-
     for(i=0; i<5; i++){
         for (j=0; j<5; j++){
+            printf("arr[%d][%d]=",i,j);
             scanf("%d",&arr[i][j]);
         }
     }
@@ -114,7 +114,7 @@ void main()
             }
         }
         printf("\n");
-        printf("\t");
+        // printf("");
     }
     printf("the sum of boundary %d",sum);
 }
