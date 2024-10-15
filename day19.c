@@ -7,9 +7,7 @@ void main(){
 
     // printf("enter the string:");
     // // scanf("%s",&str);
-    // fgets(str, sizeof
-    // .
-    // (str), stdin);
+    // fgets(str, sizeof(str), stdin);
 
     // for(i=0; str[i] != '\0'; i++){
     //     if(str[i] == '\n'){
