@@ -2,14 +2,6 @@
 #define row 2
 #define col 2
 
-int stringlength(const char *str){
-    const char *ptr = str;
-    while(*ptr != '\0'){
-        ptr++;
-    } 
-    return ptr - str;
-}
-
 int cubes(int(*arr)[col] , int (*cube)[col]){
     for(int i=0; i<row; i++){
         for(int j=0; j<col; j++){
